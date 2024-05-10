@@ -4,10 +4,6 @@
     "actions": 
     [
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+alt+1"
         },
@@ -49,11 +45,19 @@
                 "action": "copy",
                 "singleLine": false
             },
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "command": "unbound",
             "keys": "ctrl+c"
         },
         {
-            "command": "paste",
+            "command": "unbound",
             "keys": "ctrl+v"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+shift+v"
         },
         {
             "command": 
@@ -70,8 +74,9 @@
         }
     ],
     "copyFormatting": "none",
+    "launchMode": "maximized",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
     "newTabMenu": 
     [
         {
