@@ -1,9 +1,11 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -14,29 +16,27 @@
             "id": "User.paste"
         },
         {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
             "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{02b90d11-b725-4e4e-9414-16d58a989723}",
-    "keybindings": [
+    "keybindings": 
+    [
         {
             "id": null,
             "keys": "ctrl+alt+1"
-        },
-        {
-            "id": null,
-            "keys": "ctrl+alt+3"
         },
         {
             "id": null,
@@ -45,6 +45,10 @@
         {
             "id": null,
             "keys": "ctrl+alt+2"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+3"
         },
         {
             "id": null,
@@ -67,46 +71,52 @@
             "keys": "ctrl+alt+6"
         },
         {
-            "id": "User.paste",
-            "keys": "ctrl+shift+v"
-        },
-        {
             "id": null,
             "keys": "ctrl+alt+8"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+shift+v"
         },
         {
             "id": null,
             "keys": "ctrl+c"
         },
         {
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "id": null,
             "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
         },
         {
             "id": "User.splitPane.A6751878",
             "keys": "alt+shift+d"
         }
     ],
-    "newTabMenu": [
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": {
-        "defaults": {
-            "font": {
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "font": 
+            {
                 "face": "JetBrainsMonoNL Nerd Font Propo"
             }
         },
-        "list": [
+        "list": 
+        [
             {
                 "backgroundImage": null,
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "font": {
+                "font": 
+                {
                     "face": "JetBrainsMonoNL Nerd Font"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -209,7 +219,7 @@
                 "guid": "{02b90d11-b725-4e4e-9414-16d58a989723}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\Miniconda3\\Menu\\anaconda_powershell_prompt.ico",
-                "name": "PS7 anaconda",
+                "name": "PS7 anaconda"
             },
             {
                 "guid": "{9231295c-5be8-51d8-a36c-cc4cab379053}",
@@ -225,15 +235,35 @@
             },
             {
                 "commandline": "%WINDIR%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\kknielsen\\Miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\kknielsen\\Miniconda3' \"",
-                "name": "Anaconda PowerShell Prompt (Miniconda3)",
+                "guid": "{ab3796fe-e21d-534b-b8ef-ab2c0099b3ac}",
                 "icon": "C:\\Users\\kknielsen\\Miniconda3\\Menu\\anaconda_powershell_prompt.ico",
+                "name": "Anaconda PowerShell Prompt (Miniconda3)",
                 "startingDirectory": "C:\\Users\\kknielsen"
             },
             {
                 "commandline": "%WINDIR%\\System32\\cmd.exe \"/K\" C:\\Users\\kknielsen\\Miniconda3\\Scripts\\activate.bat C:\\Users\\kknielsen\\Miniconda3",
-                "name": "Anaconda Prompt (Miniconda3)",
+                "guid": "{2d5db640-34cc-5407-95fe-ef50e15b2c16}",
                 "icon": "C:\\Users\\kknielsen\\Miniconda3\\Menu\\anaconda_prompt.ico",
+                "name": "Anaconda Prompt (Miniconda3)",
                 "startingDirectory": "C:\\Users\\kknielsen"
+            },
+            {
+                "guid": "{2b257d99-9880-51dd-b97c-a0b522ff37e8}",
+                "hidden": false,
+                "name": "tljh",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{61b3983e-4408-5532-b20a-aee917d1f9ff}",
+                "hidden": false,
+                "name": "podman-machine-default",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{a01b32e9-d8d9-5616-8545-d8c639ab301b}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
             }
         ]
     },
