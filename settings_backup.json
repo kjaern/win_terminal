@@ -40,7 +40,7 @@
         },
         {
             "id": null,
-            "keys": "ctrl+alt+9"
+            "keys": "ctrl+alt+3"
         },
         {
             "id": null,
@@ -48,7 +48,11 @@
         },
         {
             "id": null,
-            "keys": "ctrl+alt+3"
+            "keys": "ctrl+alt+9"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+7"
         },
         {
             "id": null,
@@ -56,15 +60,11 @@
         },
         {
             "id": null,
-            "keys": "ctrl+alt+7"
+            "keys": "ctrl+alt+5"
         },
         {
             "id": "User.copy.644BA8F2",
             "keys": "ctrl+shift+c"
-        },
-        {
-            "id": null,
-            "keys": "ctrl+alt+5"
         },
         {
             "id": null,
@@ -105,7 +105,6 @@
     {
         "defaults": 
         {
-           "startingDirectory": ".",
             "font": 
             {
                 "face": "JetBrainsMonoNL Nerd Font Propo"
@@ -186,6 +185,20 @@
                 "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
             },
             {
+                "commandline": "%WINDIR%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\Kenneth\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\Kenneth\\miniconda3' \"",
+                "guid": "{baef6041-a2f3-5472-b295-a7d7fb0ed62f}",
+                "icon": "C:\\Users\\Kenneth\\miniconda3\\Menu\\anaconda_powershell_prompt.ico",
+                "name": "Anaconda PowerShell Prompt (miniconda3)",
+                "startingDirectory": "C:\\Users\\Kenneth"
+            },
+            {
+                "commandline": "%WINDIR%\\System32\\cmd.exe \"/K\" C:\\Users\\Kenneth\\miniconda3\\Scripts\\activate.bat C:\\Users\\Kenneth\\miniconda3",
+                "guid": "{35427e1d-45ad-517a-8692-8d5e4093f90f}",
+                "icon": "C:\\Users\\Kenneth\\miniconda3\\Menu\\anaconda_prompt.ico",
+                "name": "Anaconda Prompt (miniconda3)",
+                "startingDirectory": "C:\\Users\\Kenneth"
+            },
+            {
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
@@ -216,55 +229,12 @@
                 "source": "Microsoft.WSL"
             },
             {
-                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -WorkingDirectory ~ -ExecutionPolicy ByPass -NoExit -Command \"& '%userprofile%\\Miniconda3\\shell\\condabin\\conda-hook.ps1' ",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe  -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\Kenneth\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\Kenneth\\miniconda3' \"",
                 "guid": "{02b90d11-b725-4e4e-9414-16d58a989723}",
                 "hidden": false,
-                "icon": "%USERPROFILE%\\Miniconda3\\Menu\\anaconda_powershell_prompt.ico",
-                "name": "PS7 anaconda"
-            },
-            {
-                "guid": "{9231295c-5be8-51d8-a36c-cc4cab379053}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{83d4f6c2-dc54-5e45-bd3e-510e475b700b}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "commandline": "%WINDIR%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& '%userprofile%\\Miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate '%userprofile%\\Miniconda3' \"",
-                "guid": "{ab3796fe-e21d-534b-b8ef-ab2c0099b3ac}",
-                "icon": "%userprofile%\\Miniconda3\\Menu\\anaconda_powershell_prompt.ico",
-                "name": "Anaconda PowerShell Prompt (Miniconda3)",
-                "startingDirectory": "%userprofile%"
-            },
-            {
-                "commandline": "%WINDIR%\\System32\\cmd.exe \"/K\" %userprofile%\\Miniconda3\\Scripts\\activate.bat %userprofile%\\Miniconda3",
-                "guid": "{2d5db640-34cc-5407-95fe-ef50e15b2c16}",
-                "icon": "%userprofile%\\Miniconda3\\Menu\\anaconda_prompt.ico",
-                "name": "Anaconda Prompt (Miniconda3)",
-                "startingDirectory": "%userprofile%"
-            },
-            {
-                "guid": "{2b257d99-9880-51dd-b97c-a0b522ff37e8}",
-                "hidden": false,
-                "name": "tljh",
-                "source": "Microsoft.WSL"
-            },
-            {
-                "guid": "{61b3983e-4408-5532-b20a-aee917d1f9ff}",
-                "hidden": false,
-                "name": "podman-machine-default",
-                "source": "Microsoft.WSL"
-            },
-            {
-                "guid": "{a01b32e9-d8d9-5616-8545-d8c639ab301b}",
-                "hidden": false,
-                "name": "Ubuntu-24.04",
-                "source": "Microsoft.WSL"
+                "icon": "C:\\Users\\Kenneth\\miniconda3\\Menu\\anaconda_powershell_prompt.ico",
+                "name": "PS7 anaconda",
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },
